@@ -1,0 +1,17 @@
+---
+layout: home
+title: Posts
+hilight: posts
+---
+
+<div id="header-image">
+  <!-- I am a dirty boy and use empty divs for images -->
+</div>
+<ul id="post-list">
+{% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    <span>{{ post.date | date: "%b %-d, %Y" }}</span>
+  </li>
+{% endfor %}
+</ul>

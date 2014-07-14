@@ -1,0 +1,23 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{{ page.title }} | {{ site.title }}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+    <link rel="stylesheet" type="text/css" href="/css/generic.css">
+    {% if page.layout == 'home' %}
+		<link rel="stylesheet" type="text/css" href="/css/index-page.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,700|Oswald' rel='stylesheet' type='text/css'>
+    {% else %}
+    	<link rel="stylesheet" type="text/css" href="/css/post.css">
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,700|PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    {% endif %}
+    <link rel="stylesheet" type="text/css" href="/css/genericons/genericons.css">
+
+    {% if page.hilight == 'projects' %}
+        <link rel="stylesheet" type="text/css" href="/css/projects.css">
+    {% endif %}
+
+</head>
