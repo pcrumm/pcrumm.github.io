@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 hilight: "about"
-image: "christmas_ornament.jpg"
+image: "me_hollywood.jpg"
 ---
 
 My foray into the world of technology began with a futile attempt to build a web portal for use on my Playstation Portable back in 2002. Though the homepage never came to fruition, I was exposed to the magical world of dynamic scripting through PHP.
