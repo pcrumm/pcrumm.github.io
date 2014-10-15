@@ -130,7 +130,7 @@ header nav li a:hover, header nav li a.current {
 	font-family: 'PT Serif';
 	font-size: 1em;
 	text-align: center;
-	margin-top: -2em;
+	/*margin-top: -2em;*/
 }
 
 #disqus_thread {
