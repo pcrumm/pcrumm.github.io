@@ -80,7 +80,7 @@ header nav li a:hover, header nav li a.current {
 	font-size: 1.5em;
 }
 
-#post p {
+#post p, #post pre {
 	/* put these here so images, etc. can "break out" if need be */
 	max-width: 650px;
 	margin: 1em auto;
