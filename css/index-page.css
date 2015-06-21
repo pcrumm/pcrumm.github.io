@@ -82,10 +82,18 @@ header nav li a:hover, header nav li a.current {
 #post-list a:hover {
 	color: rgb(220, 91, 73);
 }
-#post-list span {
+#post-list span.post-date {
 	float: right;
 	font-family: 'Lato';
 	color: rgb(100, 100, 100);
+}
+#post-list span.category {
+	width: 90px;
+	display: inline-block;
+	font-family: 'Lato';
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 18px;
 }
 
 footer {
@@ -121,13 +129,28 @@ footer #social-icons li a .genericon {
 		float: left;
 		text-align: center;
 	}
+
+	header nav ul {
+		float: none;
+		text-align: center;
+	}
+
 	#header-image {
 		display: none;
+	}
+
+	#post-list {
+		clear: both;
 	}
 
 	#post-list span {
 		display: none;
 	}
+
+	#post-list span.category {
+		display: none;
+	}
+	
 	#post-list li {
 		text-align: center;
 	}
