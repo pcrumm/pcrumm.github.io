@@ -4,6 +4,7 @@ title:  "Environment-Specific Configuration in sails.js"
 date:   2014-10-15 17:00:00
 image: "sailboat.png"
 category: Tips
+blurb: Develop, Test, Deploy.
 ---
 
 Recently, I've been doing a lot of work with [sails.js](http://sailsjs.org/#/), a new-on-the-scene Javascript framework that is surprisingly pleasant to use.
