@@ -3,6 +3,7 @@ layout: post
 title:  "Pogoing Forward"
 date:   2014-08-29 12:00:00
 image: "lonely_road.jpg"
+category: Phil
 ---
 
 Moving on is never easy. I, like most people, I think, don't enjoy change. The comfort of the known and the familiar is tough to give up, no matter the circumstances.

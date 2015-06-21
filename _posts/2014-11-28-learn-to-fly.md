@@ -3,6 +3,7 @@ layout: post
 title:  So You Want to Learn to Fly
 date:   2014-11-28 22:00:00
 image: 737_plane.jpg
+category: Flying
 ---
 
 One of my proudest accomplishments thus far is earing my pilot's certificate. Just one hundred years ago, man had barely taken its first leap into the sky. Now, I can strap myself—and others, too—into a several ton piece of metal and take to the skies, wherever and whenever I want.
