@@ -12,8 +12,10 @@ My interest in PHP lead me to [phpBB](http://phpbb.com), a popular open-source f
 
 phpBB lead me to the world of [WordPress](http://wordpress.org), the world's most used blogging and content management system. I soon found work with [Automattic](http://automattic.com), the entity behind [WordPress.com](http://wordpress.com). Most recently, I worked as a VIP Wrangler, where I intermix engineering and personal skills to provide code review and world class developer support to some of the biggest names in media.
 
-I've since moved on to [Pogoseat](http://pogoseat.com), where I'm working hard to make your live event experience even more awesome.
+I then moved on to [Pogoseat](http://pogoseat.com), where I worked to redevelop a legacy, PHP-based stack into a well-architected, well-tested react.js application built upon a node.js-backed API.
 
-In my free time, I've kept my skills sharp through a variety of other technology [projects](/projects). Away from screens, I enjoy playing guitar, and am an avid recreational private pilot.
+I've since migrated down to San Diego and joined [10up](http://10up.com), where I work as a Senior Web Strategist to define and plan engineering projects from clients that intersect enterprise, media, and more.
+
+In my free time, I've kept my skills sharp through a variety of other technology [projects](/projects). Away from screens, I enjoy fitness and am an avid recreational private pilot.
 
 If you're interested in hiring me, check out my [employment](/hire) info. Or, you can always [reach me directly](/contact) with any questions.
