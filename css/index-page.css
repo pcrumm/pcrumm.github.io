@@ -3,13 +3,13 @@
 	padding: 0;
 	margin: 0;
 }
-body { 
+body {
 	font-size: 62.5%;
 }
 
 header {
 	max-width: 800px;
-	margin: 0 auto;	
+	margin: 0 auto;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
@@ -63,13 +63,51 @@ header nav li a:hover, header nav li a.current {
 	background-color: ##1a1a1a;
 }
 
-#post-list {
+#index-body {
 	max-width: 650px;
 	margin: 0 auto;
-	font-size: 2em;
-	line-height: 2em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+}
+
+#project-list {
+	width: 100%;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+#project-list li {
+	list-style: none;
+	font-family: 'Lato';
+	color: rgb(100, 100, 100);
+}
+
+#project-list li a {
+	font-family: 'Oswald';
+	text-decoration: none;
+	color: rgb(46, 63, 79);
+}
+
+#project-list li a:hover {
+	color: rgb(220, 91, 73);
+}
+
+#project-list span {
+	float: right;
+	display: inline-block;
+}
+
+#project-list span a {
+	font-family: 'Lato';
+	text-decoration: underline;
+}
+
+#post-list {
+	width: 100%;
+	font-size: 2em;
+	line-height: 2em;
+	margin-top: .7em;
+	margin-bottom: 1.5em;
 }
 #post-list li {
 	list-style: none;
@@ -94,6 +132,22 @@ header nav li a:hover, header nav li a.current {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 18px;
+}
+
+h2 {
+	font-family: 'Lato';
+	font-variant: small-caps;
+	font-weight: 700;
+	font-size: 26px;
+	text-align: center;
+}
+
+p {
+	font-size: 21px;
+	font-family: 'Lato';
+	color: rgba( 0, 0, 0, .7 );
+	font-style: italic;
+	text-align: center;
 }
 
 footer {
@@ -150,8 +204,19 @@ footer #social-icons li a .genericon {
 	#post-list span.category {
 		display: none;
 	}
-	
+
 	#post-list li {
+		text-align: center;
+	}
+
+	#project-list li span {
+		display: block;
+		text-align: center;
+		clear: both;
+		float: none;
+	}
+
+	#project-list {
 		text-align: center;
 	}
 }

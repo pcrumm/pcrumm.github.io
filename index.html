@@ -1,18 +1,44 @@
 ---
 layout: home
-title: Posts
-hilight: posts
+title: Welcome
+hilight: home
 ---
 
 <div id="header-image">
   <!-- I am a dirty boy and use empty divs for images -->
 </div>
-<ul id="post-list">
-{% for post in site.posts %}
-  <li>
-    <span class="category">{{ post.category }}</span>
-    <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-    <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-  </li>
-{% endfor %}
-</ul>
+<div id="index-body">
+    <h2>Posts</h2>
+    <p>Thoughts on technology, development, and life.</p>
+    <ul id="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="category">{{ post.category }}</span>
+        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {% endfor %}
+    </ul>
+
+    <h2>Projects</h2>
+    <p>Creations for function, learning, and enjoyment.</p>
+    <ul id="project-list">
+        <li><a href="https://github.com/pogoseat/api-client-ruby">Pogoseat Ruby API Client</a> <span>Ruby client for Pogoseat's new API.</span></li>
+        <li><a href="https://github.com/pcrumm/crony">crony</a> <span>Opinionated PHP-based cron manager.</span></li>
+        <li><a href="https://github.com/pcrumm/dotfiles">dotfiles</a> <span>How I setup my life.</span></li>
+        <li><a href="https://github.com/zlsa/atc/blob/gh-pages/assets/airports/ksfo.json">KSFO | ATC Game</a> <span>Real-life approach fixes.</span></li>
+        <li><a href="https://github.com/pcrumm/txtroulette">txtroulette</a> <span>Chatroulette for twilio.</span></li>
+        <li><a href="http://snapcorgi.com">snapcorgi</a> <span>Corgi pictures in your snapchat inbox.</span></li>
+        <li><a href="http://snapmedaily.com">snapmedaily</a> <span>Daily snapchat pictures in your inbox.<span></li>
+        <li><a href="https://github.com/pcrumm/ucla-cs143">UCLA CS143</a> <span>Database systems.</span></li>
+        <li><a href="https://github.com/pcrumm/ucla-cs118">UCLA CS118</a> <span>Networking fundamentals.</span></li>
+        <li><a href="https://github.com/pcrumm/doe-analyzer">John Doe Analyzer</a> <span><a href="/article/john-doe">Analysis</a> of the John Doe database.</span></li>
+        <li><a href="https://github.com/pcrumm/autogenda-server">autogenda</a> <span>Todo management.</span></li>
+        <li><a href="https://github.com/pcrumm/tank-project">battle-tanks</a> <span>Open-GL in-browser tank fighting game.</span></li>
+        <li><a href="https://github.com/pcrumm/ucla-cs111">UCLA CS111</a> <span>Operating Systems with <a href="http://savannah.gnu.org/users/eggert">Paul Eggert</a></span></li>
+        <li><a href="https://github.com/pcrumm/ucla-cs174">UCLA CS174</a> <span>Open-GL graphics fun!</span></li>
+        <li><a href="https://github.com/pcrumm/phpbb.json">phpbb.json</a> <span>JSON API for phpBB forums.</span></li>
+        <li><a href="https://github.com/pcrumm/phpbb.libforum">phpbb.libforum</a> <span>Functions for phpBB add-ons.</span></li>
+        <li><a href="https://www.phpbb.com/support/stk/">phpBB Support Toolkit</a> <span>Over 70k downloads!</span></li>
+    </ul>
+</div>
