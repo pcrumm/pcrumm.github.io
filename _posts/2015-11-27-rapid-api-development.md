@@ -46,7 +46,7 @@ Though this example is straightforward, keeping this decision in mind helps to k
 ## 3. Record Your Results
 Several years ago, I used to design APIs in plaintext, using a format that looked something like this:
 
-{% highlight markdown %}
+{% highlight %}
 #forum
 The *forum* module handles actions related to individual forums.
 
