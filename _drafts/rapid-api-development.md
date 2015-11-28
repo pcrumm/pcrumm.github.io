@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rapidly Developing Kick-Ass APIs
-date:   2015-11-23 20:00:00
+date:   2015-11-27 20:00:00
 image: motorcycle.jpg
 category: Tech
 blurb: No Time to Waste 
