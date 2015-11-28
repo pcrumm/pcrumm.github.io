@@ -46,7 +46,7 @@ Though this example is straightforward, keeping this decision in mind helps to k
 ## 3. Record Your Results
 Several years ago, I used to design APIs in plaintext, using a format that looked something like this:
 
-{% highlight %}
+```
 #forum
 The *forum* module handles actions related to individual forums.
 
@@ -60,7 +60,7 @@ Lists statistics for a forum.
 * total_topics
 * total_posts
 * total_replies
-{% endhighlight %}
+```
 
 These days, there are several great tools for documenting APIs that give you great additional functionality for free, including automatically-generated API clients, in-browser API experimentation, test suite integration, and easy parsing for any other use-cases you come up with.
 
