@@ -44,25 +44,7 @@ Let’s imagine, for a moment, that we’re defining an API for Snapchat. We wan
 Though this example is straightforward, keeping this decision in mind helps to keep your API endpoints logically organized as you build them out. If you have a hard time describing your API endpoints relative to your building blocks, you may want to revisit your choice of building blocks.
 
 ## 3. Record Your Results
-Several years ago, I used to design APIs in plaintext, using a format that looked something like this:
-
-```
-#forum
-The *forum* module handles actions related to individual forums.
-
-## info
-Lists statistics for a forum.
-
-### Data
-* forum_id - (integer)
-
-### Result
-* total_topics
-* total_posts
-* total_replies
-```
-
-These days, there are several great tools for documenting APIs that give you great additional functionality for free, including automatically-generated API clients, in-browser API experimentation, test suite integration, and easy parsing for any other use-cases you come up with.
+Several years ago, I used to design APIs in plaintext, using a format that [looked something like this](https://github.com/pcrumm/phpbb.json/blob/dev-phpbb-3.0.x/docs/modules/board.md). These days, there are several great tools for documenting APIs that give you great additional functionality for free, including automatically-generated API clients, in-browser API experimentation, test suite integration, and easy parsing for any other use-cases you come up with.
 
 [Swagger](http://swagger.io/), the open-source API documentation format of choice, is an XML (though you can use JSON, which is then translated) format for describing REST APIs. Its strength is its community&mdash;there’s an entire ecosystem of development tools available including an editor, API code-generation tools, in browser playground based on one’s documentation, and more. Its primary downside is that each of these components is discrete and separately developed, so it does take a little bit of time to put together your workflow in the way that you’d like.
 
