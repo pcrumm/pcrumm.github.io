@@ -7,10 +7,10 @@ category: Tech
 blurb: No Time to Waste 
 ---
 
-Over the last year, I’ve had the fortune of being involved in several fast-moving software development projects. Long gone are the days of slow, careful, and deliberate planning in small software companies. Instead, moving fast and break things ([for better or for worse](http://www.forbes.com/sites/quora/2014/12/16/should-innovative-companies-really-move-fast-and-break-things/)) is now the law of the land. Speed is a competitive advantage&mdash;and, in today’s startups, it’s one of the most clearly attainable.
+Over the last year, I’ve had the fortune of being involved in several fast-moving software development projects. Long gone are the days of slow, careful, and deliberate planning in small software companies. Instead, moving fast and breaking things ([for better or for worse](http://www.forbes.com/sites/quora/2014/12/16/should-innovative-companies-really-move-fast-and-break-things/)) is now the law of the land. Speed is a competitive advantage&mdash;and, in today’s startups, it’s one of the most clearly attainable.
 
 # Reinventing Yourself
-Joel Spolsky once wrote that [you should never rewrite your software from scratch](http://www.joelonsoftware.com/articles/fog0000000069.html). On the whole, I think this is still mostly true&mdash;the scorched Earth policy in software seldom works. The reason it never works, however, isn’t so clear.
+Joel Spolsky once wrote that [you should never rewrite your software from scratch](http://www.joelonsoftware.com/articles/fog0000000069.html). On the whole, I think this is still mostly true&mdash;the scorched earth policy in software seldom works. The reason it never works, however, isn’t so clear.
 
 It isn’t rewriting one’s software that’s inherently the problem. Instead, a rewrite tends to soon become a victim of the poor practices that led to needing a rewrite in a first place. With today’s tendency towards [microservices](http://microservices.io/index.html) and the abundance of well-written, small third-party components that can jumpstart large portions of development overhead, rewriting various portions of a software stack now and then has become a feasible tool for managing technical debt and adjusting to the often quickly-changing goals of today’s startups.
 
@@ -39,7 +39,7 @@ On the other hand, if your API is oriented *externally*, design decisions should
 ## 2. Select Your Building Blocks
 At the core of defining your API is deciding what it is that your API _does_. You’ll need to select several fundamental units that, when assembled, describe the rest of the functionality of your API in order to keep things clean and organized.
 
-Let’s imagine, for a moment, that we’re defining an API for Snapchat. We wants users to be able to sign in and share photos, so that naturally suggests a few building blocks: _users_ and _photos_.
+Let’s imagine, for a moment, that we’re defining an API for Snapchat. We want users to be able to sign in and share photos, so that naturally suggests a few building blocks: _users_ and _photos_.
 
 Though this example is straightforward, keeping this decision in mind helps to keep your API endpoints logically organized as you build them out. If you have a hard time describing your API endpoints relative to your building blocks, you may want to revisit your choice of building blocks.
 
@@ -62,11 +62,11 @@ Lists statistics for a forum.
 * total_replies
 {% endhighlight %}
 
-These days, there’s several great tools for documenting APIs that give you great additional functionality for free, including automatically-generated API clients, in-browser API experimentation, test suite integration, and easy parsing for any other use-cases you come up with.
+These days, there are several great tools for documenting APIs that give you great additional functionality for free, including automatically-generated API clients, in-browser API experimentation, test suite integration, and easy parsing for any other use-cases you come up with.
 
 [Swagger](http://swagger.io/), the open-source API documentation format of choice, is an XML (though you can use JSON, which is then translated) format for describing REST APIs. Its strength is its community&mdash;there’s an entire ecosystem of development tools available including an editor, API code-generation tools, in browser playground based on one’s documentation, and more. Its primary downside is that each of these components is discrete and separately developed, so it does take a little bit of time to put together your workflow in the way that you’d like.
 
-On the other side of the ring is [Apiary](https://apiary.io/), which is a feature-full paid (through there is a free plan which is a good place to get started) platform for API design. Its documentation format is markdown based, which provides less overhead to getting started than Swagger’s sometimes-bloated XML format. Its tooling is oriented towards collaborative API development, particularly discussion and group brainstorming around API endpoints.
+On the other side of the ring is [Apiary](https://apiary.io/), which is a feature-full paid (though there is a free plan which is a good place to get started) platform for API design. Its documentation format is markdown based, which provides less overhead to getting started than Swagger’s sometimes-bloated XML format. Its tooling is oriented towards collaborative API development, particularly discussion and group brainstorming around API endpoints.
 
 As much as I’m a supporter of open source software, I’d recommend Apiary to anyone who is looking to get things going quickly and isn’t terribly interested in spending time building their own API documentation workflow and ecosystem.
 
@@ -88,7 +88,7 @@ You might be compelled to skip the framework and work through your preferred sta
 # Step 3. Test, Build, Repeat
 Unit test your API. That isn’t a suggestion&mdash;you need to do it. I know that unit tests take time to write. Sometimes, writing tests might even take longer to write than writing the API endpoint. That’s okay.
 
-The key to these tests is to document the _correct_ functionality, and any errors that are of particular concern. For example, you’ll want to know that your authentication works when credentials are valid, and fails when it are not. You’ll want to know that a correctly formatted new user will be created, and that omitting a required field fails.
+The key to these tests is to document the _correct_ functionality, and any errors that are of particular concern. For example, you’ll want to know that your authentication works when credentials are valid, and fails when they are not. You’ll want to know that a correctly formatted new user will be created, and that omitting a required field fails.
 
 I choose not to focus on testing edge cases during initial development. There’s a chance that a change during the development cycle will require tweaking older unit tests, and I’d prefer to limit the number of involved tests. These can be added later, when changes to endpoints are less likely.
 
@@ -113,4 +113,4 @@ This early-access cycle has allowed developers to request changes and provide fe
 
 <hr>
 
-My API development techniques can be summed up simply: plan first, test always, build small, and release often. We’re software engineers&mdash;we’re good at solving small, decomposable problems. By turning our API into one of these, we’ve set ourselves up for success and provided ourselves the tools we need remove distractions and _Get Shit Done_. 
+My API development techniques can be summed up simply: plan first, test always, build small, and release often. We’re software engineers&mdash;we’re good at solving small, decomposable problems. By turning our API into one of these, we’ve set ourselves up for success and provided ourselves the tools we need to remove distractions and _Get Shit Done_. 
