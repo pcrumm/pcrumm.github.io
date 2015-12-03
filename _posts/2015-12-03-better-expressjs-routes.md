@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Code-Defined Dynamic Routes for express.js
-date:   2010-01-01 20:00:00
+date:   2015-12-03 14:00:00
 image: railyard.jpg
 category: Projects
 blurb: Code Once. Route Automatically.
