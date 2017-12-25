@@ -1,9 +1,0 @@
-#contactly_form {
-	height: 290px;
-}
-
-@media ( max-width: 470px ) {
-	#contactly_form {
-		height: 420px;
-	}
-}
