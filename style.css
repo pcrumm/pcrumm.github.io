@@ -1,0 +1,126 @@
+header {
+  display: block;
+  height: 250px;
+  width: 100%;
+  font-family: 'Lato';
+  text-transform: uppercase;
+  font-size: 180px;
+}
+
+.first {
+  display: block;
+  height: 160px;
+  width: 30%;
+  background-color: #419BD9;
+  color: #2E3F4F;
+  float: left;
+  text-align: right;
+  font-weight: 800;
+  padding-top: 90px;
+}
+
+.last {
+  display: block;
+  height: 160px;
+  width: 70%;
+  background-color: #2E3F4F;
+  color: #419BD9;
+  float: right;
+  padding-top: 90px;
+  font-weight: 300;
+}
+
+section {
+  clear: both;
+  padding-top: 50px;
+}
+
+section.about {
+  padding-top: 20px !important;
+}
+
+section h2 {
+  display: inline-block;
+  width: 30%;
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 36px;
+  color: #DC5B49;
+  float: left;
+  text-align: right;
+}
+
+section .content {
+  display: inline-block;
+  width: 70%;
+  float: left;
+  max-width: 700px;
+}
+
+section .content p {
+  font-family: 'Prata';
+  font-size: 24px;
+  color: #2E3F4F;
+  line-height: 40px;
+  margin-bottom: 20px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#postlist {
+  width: 90%;
+  margin-left: 5%;
+}
+
+#postlist li a {
+  font-family: 'Prata';
+  font-size: 24px;
+  text-decoration: underline;
+  color: #419BD9;
+  line-height: 40px;
+}
+
+a {
+  color: #419BD9;
+}
+
+@media only screen and (max-width : 1325px) {
+  .first, .last {
+    background: none !important;
+    height: 40px;
+    width: auto;
+    padding: 0 !important;
+    float: none !important;
+    display: inline-block;
+    text-align: center !important;
+  }
+
+  header {
+    height: 40px;
+    text-align: center;
+    font-size: 36px;
+  }
+
+  section h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+  }
+
+  section .content {
+    width: 100%;
+    margin-top: 8px;
+    max-width: none;
+  }
+
+  section .content p {
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+
+  #postlist {
+    text-align: center;
+  }
+}
